@@ -33,8 +33,19 @@
                     <view key="view" contentMode="scaleToFill" id="2pR-t6-kKV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="gst-3d-8jj"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sherrrrr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0b-LB-3sA">
+                                <rect key="frame" x="165" y="416" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XxA-Ph-In5"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JlR-ru-o45" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
